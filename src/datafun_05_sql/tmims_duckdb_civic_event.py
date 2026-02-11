@@ -152,6 +152,10 @@ def main() -> None:
         # STEP 4: RUN KPI QUERY (ACTION-DRIVEN)
         # ----------------------------------------------------
         run_sql_query(con, SQL_DIR / "tmims_civic_event_query_kpi_contribution.sql")
+        run_sql_query(con, SQL_DIR / "tmims_civic_event_query_lowest_contribution.sql")
+        run_sql_query(
+            con, SQL_DIR / "tmims_civic_event_query_contribution_per_checkin.sql"
+        )
 
     finally:
         # Regardless of success or failure, always close the connection
