@@ -20,7 +20,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/tmims71-ctrl/datafun-05-sql
-      link: https://github.com/denisecase/datafun-05-sql
 
 # WHY: Material theme is industry standard, well-documented
 theme:
