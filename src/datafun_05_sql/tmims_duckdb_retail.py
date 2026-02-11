@@ -1,4 +1,4 @@
-"""case_duckdb_retail.py - Project script (example).
+"""tmims_duckdb_retail.py - Project script (example).
 
 Author: Tammy Mims
 Date: 2026-02
